@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_layout"
+    tools:context="com.example.android.abc.MainActivity">
+
+
+    <TextView
+        android:id="@+id/editText2"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:ems="10"
+        android:layout_margin="0dp"
+        android:padding="22.3dp"
+        android:textColor="#00FFFF"
+        android:text="A B C QUIZ!"
+        android:textAlignment="center"
+        android:textSize="50sp"
+        android:background="#fff"
+        android:layout_below="@+id/textView"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="17dp" />
+
+    <Button
+        android:id="@+id/play_quiz"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:background="@drawable/bg"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:onClick="submit"/>
+
+    <TextView
+        android:id="@+id/editText3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/button3"
+        android:layout_centerHorizontal="true"
+        android:ems="10"
+        android:textAlignment="center"
+        android:textColor="#00FFFF"
+        android:fontFamily="sans-serif"
+        android:textSize="25sp"
+        android:text="START!" />
+
+
+</RelativeLayout>
